@@ -5,17 +5,18 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="talkie.css">
-	<title>faceapp</title>
+	<title>talkie </title>
 </head>
 <body>
 
-<textarea id="text"></textarea>
-<label for="speed" >speed</label>
+<textarea id="text" placeholder="Type in text here"></textarea>
+<div class="t-area">
+<label for="speed" class="label">speed</label>
 <input type="number" name="spee" id="speed" min=".5" max="3" step=".5" value="1">
 <button class="btn" id="playbtn">Play</button>
 <button class="btn"   id="pausebtn">Pause</button>
 <button class="btn"  id="stopbtn">Stop</button>
-
+</div>
 
 
 <script type="text/javascript" src="talkie.js"></script>
